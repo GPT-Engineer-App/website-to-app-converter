@@ -1,0 +1,35 @@
+    npm install @capacitor/core @capacitor/cli
+    ```
+
+3. **Initialize Capacitor**: Initialize Capacitor in your project.
+    ```bash
+    npx cap init
+    ```
+
+4. **Build Your React Project**: Build your React project to generate the production files.
+    ```bash
+    npm run build
+    ```
+
+5. **Add Android Platform**: Add the Android platform to your Capacitor project.
+    ```bash
+    npx cap add android
+    ```
+
+6. **Copy Web Assets**: Copy the built web assets into the native project.
+    ```bash
+    npx cap copy
+    ```
+
+7. **Open Android Studio**: Open the Android project in Android Studio.
+    ```bash
+    npx cap open android
+    ```
+
+8. **Run Your App**: From Android Studio, you can build and run your app on an emulator or a physical device.
+
+### Example Code for `src/pages/Index.jsx`
+
+Here is an example of a simple React component using Chakra UI and React Icons:
+
+src/pages/Index.jsx
